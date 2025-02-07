@@ -1,0 +1,42 @@
+---
+title: New Post
+description: New Post.
+---
+
+# Write your first post
+
+- Click on <span style={{ color: 'rgb(136, 0, 21)' }}> **Posts** </span> in the left sidebar and then click the <span style={{ color: 'rgb(136, 0, 21)' }}> **New post**  </span> button. Or you can simply click the <span style={{ color: 'red' }}> + </span> button next to **Posts**.
+
+![Image](../../../../../public/img/newpost.png)
+
+- Start by writing an engaging title and adding an image (if you wish) to convey the identity of your article.
+
+![Image](../../../../../public/img/pictureTitle.png)
+
+💡 You can add an image from your devise or use one from [Unsplash](https://unsplash.com). It will allow you to use content from creators all over the world.
+
+![Image](../../../../../public/img/unsplash.png)
+
+- Now is time to write. 
+
+💡 The editor gives you basic options to convert the typography to italic, bold, or two header options. It also allows you to add hyperlinks and turn a block of text into a blockquote.
+
+![Image](../../../../../public/img/write.png) 
+
+💡 Press this button to add any resource from this [list](https://ghost.org/help/cards/)
+
+![Image](../../../../../public/img/addResource.png)
+
+- Once you finish writing the article, it's time to publish. Press the publish button to continue.
+
+![Image](../../../../../public/img/previewPublish.png)
+
+- Next, a form will appear to configure the publication time and channel for the article. After that press the button to proceed to the final review.
+ 
+ ![Image](../../../../../public/img/publish.png)
+
+ - Now you can publish your first article.
+
+  ![Image](../../../../../public/img/print.png)
+
+  Congratulation! You publish your first article.
