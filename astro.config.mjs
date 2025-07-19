@@ -3,12 +3,12 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	server: {
+		port: 1234,
+	},
 	integrations: [
 		starlight({
 			title: 'Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
 			sidebar: [
 				{
 					label: 'Product Documentation',
@@ -23,13 +23,6 @@ export default defineConfig({
 								{ label: 'New account', link: 'guides/startpublishing/newaccount' },
 							]
 						},
-					],
-				},
-				{
-					label: 'API Documentation',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Post', link: 'apidocs/post/' },
 					],
 				},
 			],

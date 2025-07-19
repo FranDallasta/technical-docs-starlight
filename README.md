@@ -1,55 +1,21 @@
-# Starlight Starter Kit: Basics
+# 📝 Ghost Blog Documentation — Built with Starlight
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-```
-npm create astro@latest -- --template starlight
-```
+This is a documentation-style website created with the **Starlight** starter kit for [Astro](https://astro.build). It contains a simple and informative blog that introduces the [Ghost CMS](https://ghost.org) platform and helps new users get started with it.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## 📄 Project Content
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This documentation site includes the following pages:
 
-## 🚀 Project Structure
+- **What's Ghost?** – An overview of Ghost CMS: what it is, who it’s for, and its main features.
+- **Ghost vs WordPress** – A comparison chart outlining differences between Ghost and WordPress in areas like SEO, performance, and memberships.
+- **New Account** – A visual guide to creating a Ghost(Pro) account, including trial setup.
+- **New Post** – Step-by-step instructions on how to create and publish your first post in Ghost, with screenshots and tips.
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## ▶️ Run the Project
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+To start the local development server, run:
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+```bash
+npm run dev
