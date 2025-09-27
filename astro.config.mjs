@@ -21,6 +21,7 @@ export default defineConfig({
 							items: [
 								{ label: 'New Post', link: 'guides/startpublishing/newpost' },
 								{ label: 'New account', link: 'guides/startpublishing/newaccount' },
+								{ label: 'SEO Optimization', link: 'guides/startpublishing/seo-optimization' },
 							]
 						},
 					],

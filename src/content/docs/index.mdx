@@ -1,36 +1,57 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Ghost Blog Documentation
+description: Complete documentation for Ghost CMS platform built with Starlight and Diataxis methodology.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: What is Ghost?
       link: /guides/example/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Ghost vs WordPress
+      link: /guides/ghostvswordpress/
+      icon: right-arrow
+      variant: secondary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## About This Documentation
+
+This is a comprehensive documentation website for the **Ghost CMS** platform, built with [Starlight](https://starlight.astro.build) and following the **Diataxis** methodology for technical documentation.
+
+### What is Diataxis?
+
+This documentation follows the **Diataxis framework**, a systematic approach to technical documentation that organizes content into four distinct types:
+
+- **Tutorials** - Learning-oriented guides that help users accomplish a specific task
+- **How-to Guides** - Problem-oriented instructions for solving specific problems  
+- **Technical Reference** - Information-oriented descriptions of the machinery
+- **Explanation** - Understanding-oriented discussions that clarify a topic
+
+### Project Content
+
+This documentation site provides comprehensive coverage of Ghost CMS:
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="What's Ghost?" icon="open-book">
+		An overview of Ghost CMS: what it is, who it's for, and its main features.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Ghost vs WordPress" icon="compare">
+		A detailed comparison chart outlining differences between Ghost and WordPress in areas like SEO, performance, and memberships.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="New Account Setup" icon="user-add">
+		A visual guide to creating a Ghost(Pro) account, including trial setup and initial configuration.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Creating Your First Post" icon="pencil">
+		Step-by-step instructions on how to create and publish your first post in Ghost, with screenshots and practical tips.
 	</Card>
 </CardGrid>
+
+## Getting Started
+
+Whether you're a blogger, content creator, or business looking for a modern publishing platform, this documentation will guide you through everything you need to know about Ghost CMS.
+
+Start with our [What is Ghost?](/guides/example/) guide to understand the platform, then explore the comparison with WordPress to see how Ghost stacks up against other solutions.
